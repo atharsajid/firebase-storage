@@ -1,0 +1,15 @@
+import 'dart:io';
+
+import 'package:firebase_storage/firebase_storage.dart';
+
+class Storage {
+  final FirebaseStorage storage = FirebaseStorage.instance;
+  Future<void> uploadfile(String filepath, String filename) async {
+    File file = File(filepath);
+    try {
+      await storage.ref("test/$filename").putFile(file);
+    } on FirebaseException catch (e) {
+      print(e);
+    }
+  }
+}
