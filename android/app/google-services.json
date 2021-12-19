@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155799202268",
+    "project_id": "fire-storage-96ab8",
+    "storage_bucket": "fire-storage-96ab8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155799202268:android:ac69a972e44a4db29f4719",
+        "android_client_info": {
+          "package_name": "com.example.filepicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155799202268-r47kf54c4v4dbt4ob5nr9i52tb6r3n5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMgGt6bJkVztoT5zBrn4fXh5ZjfOkh1qY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155799202268-r47kf54c4v4dbt4ob5nr9i52tb6r3n5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
